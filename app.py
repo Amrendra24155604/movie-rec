@@ -2,7 +2,8 @@ import streamlit as st
 import pickle
 import pandas as pd
 import requests
-
+import os
+os.system("git lfs pull")
 # Fetch poster using OMDb API
 def fetch_poster(movie_title):
     api_key = "68f6f7c0"  # just the key
